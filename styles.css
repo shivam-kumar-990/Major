@@ -1,0 +1,114 @@
+*{
+    overflow: auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    background-image: url(abstract-dark-blue-futuristic-digital-grid-background.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+header {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1, h2 {
+    margin: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+p {
+    line-height: 1.5;
+}
+footer {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Features Section */
+.features {
+    background-color: transparent;
+    padding: 20px;
+    margin-top: 20px;
+}
+.feature-item {
+    margin-bottom: 10px;
+}
+
+/* Get Started Section */
+.get-started {
+    /* width: 150px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin-top: 20px; */
+    overflow: hidden;
+    color: #fff;
+    padding-top: 0%;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button {
+    /* background-color: #007bff; */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+.login-signup {
+    display: flex;
+    height: auto;
+
+}
+.login-signup a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.infeat:hover{
+    
+    border-radius: 15px;
+    box-shadow: 5px 0px 15px rgb(6, 6, 6);
+    transition: box-shadow 0.3s ease-in-out;}
+.image1{
+    background-image: url(My_first_design-removebg-preview.png);
+    background-size: cover;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.content{
+    margin: 4px 4px;
+    overflow: hidden;
+}
+.feature-item{
+    margin: 4px 4px;
+    overflow: hidden;
+}
+
+/*djlfvnjdf*/
